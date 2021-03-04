@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p>
+      Welcome! Ready to test your memory?
+      <br>
+      You will be given a pattern to memorize and repeat back in order to win!
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <div id="timer-container">
+      <p id="display">
+        Time left: 120 seconds
+      </p>
+    </div>
+    <div id="gameButtonArea">
+      <audio src="https://cdn.glitch.com/42a59047-13a6-48e4-9ded-62f2e2dfd653%2Fzapsplat_cartoon_bubble_pop_006_40278.mp3?v=1614220389652" id="audio1"></audio>
+      <audio src="https://cdn.glitch.com/42a59047-13a6-48e4-9ded-62f2e2dfd653%2Fzapsplat_cartoon_bubble_pop_005_40277.mp3?v=1614220392430" id="audio2"></audio>
+      <audio src="https://cdn.glitch.com/42a59047-13a6-48e4-9ded-62f2e2dfd653%2Fzapsplat_cartoon_bubble_003_46661.mp3?v=1614220395282" id="audio3"></audio>
+      <audio src="https://cdn.glitch.com/42a59047-13a6-48e4-9ded-62f2e2dfd653%2Fzapsplat_cartoon_bubble_002_46660.mp3?v=1614220397339" id="audio4"></audio>
+      <audio src="https://cdn.glitch.com/42a59047-13a6-48e4-9ded-62f2e2dfd653%2Fzapsplat_cartoon_bubble_001_46810.mp3?v=1614220399319" id="audio5"></audio>
+      <button id="button1" onclick="guess(1)" onmousedown="playMyAudio(1)"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="playMyAudio(2)"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="playMyAudio(3)"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="playMyAudio(4)"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="playMyAudio(5)"></button>
+    </div>
+
+    
+  </body>
+</html>
