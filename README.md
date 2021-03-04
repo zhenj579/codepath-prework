@@ -30,3 +30,6 @@ are they connected to a website and how they interact.
 I would like to make the website look more presentable. I believe that a website is something that must look presentable. Currently, this project looks very bland and very static. I would
 perhaps incorporate animations that make the website look less static-y. In this case, that would probably have to do with the CSS portion of the website. Adding more features would be good too.
 Challenges like maybe the button fades away or allowing the user to adjust the timer or speed would be more challenging.
+
+![alt text](http://g.recordit.co/Cktfvd97B9.gif)
+![alt text](http://g.recordit.co/5JBxNACy2f.gif)
